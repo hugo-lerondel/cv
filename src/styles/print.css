@@ -64,7 +64,14 @@
   }
 
   .badge {
-    border: 1px solid rgba(37, 99, 235, 0.3);
+    border: 1px solid rgba(74, 111, 165, 0.3);
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  .cv-header__photo {
+    width: 80pt;
+    height: 80pt;
     -webkit-print-color-adjust: exact;
     print-color-adjust: exact;
   }

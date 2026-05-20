@@ -1,17 +1,18 @@
 :root {
-  /* Colors */
-  --color-bg:        #F5F7FA;
-  --color-card:      #FFFFFF;
-  --color-text:      #111827;
-  --color-muted:     #6B7280;
-  --color-accent:    #2563EB;
-  --color-accent-light: #EFF6FF;
-  --color-sidebar-bg: #F8FAFC;
-  --color-border:    #E5E7EB;
-  --color-badge-bg:  #EFF6FF;
-  --color-badge-text: #1D4ED8;
-  --color-badge-soft-bg: #F0FDF4;
-  --color-badge-soft-text: #16A34A;
+  /* Colors — pastel moderne, légèrement sombre */
+  --color-bg:        #E8ECF4;
+  --color-card:      #F7F8FC;
+  --color-text:      #1E293B;
+  --color-muted:     #5A6A82;
+  --color-accent:    #4A6FA5;
+  --color-accent-light: #DDE6F5;
+  --color-sidebar-bg: #EDF0F9;
+  --color-border:    #C8D0E0;
+  --color-badge-bg:  #DDE6F5;
+  --color-badge-text: #2E4F82;
+  --color-badge-soft-bg: #D8EFE3;
+  --color-badge-soft-text: #286047;
+  --color-photo-bg:  #C8D4E8;
 
   /* Typography */
   --font-family:     'Inter', system-ui, -apple-system, sans-serif;

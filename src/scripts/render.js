@@ -7,18 +7,44 @@ import { formatDateRange, linkHtml, formatUrl } from '../utils/format.js';
  */
 export function renderHeader(profile) {
   const contacts = buildContactItems(profile);
+  const photo = renderPhoto(profile);
 
   return `
     <header class="cv-header">
-      <div class="cv-header__identity">
-        <h1 class="cv-header__name">${profile.name}</h1>
-        <p class="cv-header__title">${profile.title}</p>
+      <div class="cv-header__top">
+        <div class="cv-header__left">
+          <div class="cv-header__identity">
+            <h1 class="cv-header__name">${profile.name}</h1>
+            <p class="cv-header__title">${profile.title}</p>
+          </div>
+        </div>
+        ${photo}
       </div>
       <p class="cv-header__intro">${profile.intro}</p>
       <ul class="cv-header__contacts">
         ${contacts}
       </ul>
     </header>
+  `;
+}
+
+function renderPhoto(profile) {
+  if (profile.photo) {
+    return `
+      <div class="cv-header__photo">
+        <img src="${profile.photo}" alt="Photo de ${profile.name}" class="cv-header__photo-img" />
+      </div>
+    `;
+  }
+  const initials = profile.name
+    .split(' ')
+    .map((n) => n[0])
+    .slice(0, 2)
+    .join('');
+  return `
+    <div class="cv-header__photo cv-header__photo--placeholder">
+      <span class="cv-header__photo-initials">${initials}</span>
+    </div>
   `;
 }
 

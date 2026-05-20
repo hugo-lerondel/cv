@@ -198,13 +198,13 @@
   border-radius: var(--radius-full);
   padding: 2px var(--space-3);
   line-height: 1.6;
-  border: 1px solid rgba(37, 99, 235, 0.15);
+  border: 1px solid rgba(74, 111, 165, 0.2);
 }
 
 .badge--soft {
   background: var(--color-badge-soft-bg);
   color: var(--color-badge-soft-text);
-  border-color: rgba(22, 163, 74, 0.15);
+  border-color: rgba(40, 96, 71, 0.2);
 }
 
 /* ============================================
