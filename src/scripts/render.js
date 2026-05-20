@@ -38,6 +38,7 @@ function renderPhoto(profile) {
   }
   const initials = profile.name
     .split(' ')
+    .filter((n) => n.length > 0)
     .map((n) => n[0])
     .slice(0, 2)
     .join('');
