@@ -1,0 +1,87 @@
+{
+  "profile": {
+    "name": "Hugo Lerondel",
+    "title": "Développeur web front-end / full-stack",
+    "intro": "À la recherche d'un CDI en développement web, je souhaite contribuer à des projets concrets en mettant à profit mes compétences techniques, ma rigueur et mon sens du travail en équipe.",
+    "location": "France",
+    "email": "hugo@lerondel.dev",
+    "phone": "+33 6 00 00 00 00",
+    "website": "https://hugo-lerondel.dev",
+    "linkedin": "https://linkedin.com/in/hugo-lerondel",
+    "github": "https://github.com/hugo-lerondel"
+  },
+  "experience": [
+    {
+      "company": "Entreprise A",
+      "role": "Développeur web front-end",
+      "location": "Paris",
+      "start": "2024",
+      "end": "2025",
+      "description": [
+        "Développement d'interfaces web responsive pour une application interne.",
+        "Intégration de maquettes UI et amélioration de l'ergonomie.",
+        "Mise en place de composants réutilisables pour accélérer le développement.",
+        "Collaboration avec les équipes produit et design."
+      ],
+      "stack": ["React", "TypeScript", "CSS Modules", "Vite"]
+    },
+    {
+      "company": "Entreprise B",
+      "role": "Développeur web full-stack",
+      "location": "Lyon",
+      "start": "2023",
+      "end": "2024",
+      "description": [
+        "Développement et maintenance d'une application web full-stack.",
+        "Conception et implémentation d'une API REST avec Node.js.",
+        "Amélioration des performances front-end et de l'accessibilité.",
+        "Participation aux revues de code et aux cérémonies Agile."
+      ],
+      "stack": ["Node.js", "Express", "React", "PostgreSQL", "Git"]
+    }
+  ],
+  "education": [
+    {
+      "school": "École / Université",
+      "degree": "Bachelor Développement Web",
+      "location": "Ville",
+      "start": "2021",
+      "end": "2023",
+      "specialization": "Développement web, UX/UI, Bases de données"
+    },
+    {
+      "school": "Lycée",
+      "degree": "Baccalauréat Général",
+      "location": "Ville",
+      "start": "2018",
+      "end": "2021",
+      "specialization": "Mathématiques, NSI (Numérique et Sciences Informatiques)"
+    }
+  ],
+  "skills": {
+    "technical": {
+      "Front-end": ["HTML", "CSS", "JavaScript", "TypeScript", "React"],
+      "Back-end": ["Node.js", "Express"],
+      "Outils": ["Git", "GitHub", "Figma", "VS Code", "npm", "Vite"]
+    },
+    "soft": [
+      "Rigueur",
+      "Autonomie",
+      "Esprit d'équipe",
+      "Curiosité",
+      "Communication",
+      "Organisation",
+      "Sens du détail"
+    ],
+    "languages": [
+      {
+        "name": "Français",
+        "level": "Langue maternelle"
+      },
+      {
+        "name": "Anglais",
+        "level": "Professionnel"
+      }
+    ]
+  }
+}

@@ -1,0 +1,120 @@
+/* ============================================
+   WRAPPER & CARD
+   ============================================ */
+
+.cv-wrapper {
+  min-height: 100vh;
+  padding: var(--space-8) var(--space-4);
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.cv-card {
+  background: var(--color-card);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-lg);
+  width: 100%;
+  max-width: 960px;
+  overflow: hidden;
+}
+
+/* ============================================
+   HEADER
+   ============================================ */
+
+.cv-header {
+  padding: var(--space-10) var(--space-10) var(--space-8);
+  border-bottom: 1px solid var(--color-border);
+  background: var(--color-card);
+}
+
+.cv-header__identity {
+  margin-bottom: var(--space-4);
+}
+
+.cv-header__name {
+  font-size: var(--font-size-2xl);
+  font-weight: 700;
+  color: var(--color-text);
+  letter-spacing: -0.5px;
+  line-height: 1.15;
+}
+
+.cv-header__title {
+  font-size: var(--font-size-lg);
+  font-weight: 500;
+  color: var(--color-accent);
+  margin-top: var(--space-1);
+}
+
+.cv-header__intro {
+  font-size: var(--font-size-base);
+  color: var(--color-muted);
+  background: var(--color-accent-light);
+  border-left: 3px solid var(--color-accent);
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+  padding: var(--space-3) var(--space-4);
+  margin-bottom: var(--space-5);
+  max-width: 680px;
+  line-height: 1.65;
+}
+
+.cv-header__contacts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2) var(--space-5);
+}
+
+/* ============================================
+   BODY (two-column grid)
+   ============================================ */
+
+.cv-body {
+  display: grid;
+  grid-template-columns: 65fr 35fr;
+  min-height: 0;
+}
+
+.cv-main {
+  padding: var(--space-8) var(--space-10);
+  border-right: 1px solid var(--color-border);
+}
+
+.cv-sidebar {
+  padding: var(--space-8) var(--space-6);
+  background: var(--color-sidebar-bg);
+}
+
+/* ============================================
+   RESPONSIVE (small screens / mobile)
+   ============================================ */
+
+@media (max-width: 700px) {
+  .cv-wrapper {
+    padding: 0;
+  }
+
+  .cv-card {
+    border-radius: 0;
+    box-shadow: none;
+  }
+
+  .cv-header {
+    padding: var(--space-8) var(--space-5) var(--space-6);
+  }
+
+  .cv-body {
+    grid-template-columns: 1fr;
+  }
+
+  .cv-main {
+    padding: var(--space-6) var(--space-5);
+    border-right: none;
+    border-bottom: 1px solid var(--color-border);
+  }
+
+  .cv-sidebar {
+    padding: var(--space-6) var(--space-5);
+  }
+}

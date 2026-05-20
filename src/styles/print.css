@@ -1,0 +1,79 @@
+@media print {
+  @page {
+    size: A4;
+    margin: 12mm 14mm;
+  }
+
+  html, body {
+    font-size: 14px;
+    background: white;
+    color: black;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  .cv-wrapper {
+    padding: 0;
+    min-height: unset;
+    background: white;
+  }
+
+  .cv-card {
+    box-shadow: none;
+    border-radius: 0;
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .cv-header {
+    padding: 16pt 20pt 12pt;
+  }
+
+  .cv-header__name {
+    font-size: 22pt;
+  }
+
+  .cv-header__title {
+    font-size: 13pt;
+  }
+
+  .cv-header__intro {
+    font-size: 9.5pt;
+    max-width: 100%;
+  }
+
+  .cv-main {
+    padding: 12pt 20pt;
+  }
+
+  .cv-sidebar {
+    padding: 12pt 14pt;
+  }
+
+  .cv-section {
+    break-inside: avoid;
+    margin-bottom: 14pt;
+  }
+
+  .exp-item {
+    break-inside: avoid;
+  }
+
+  .edu-item {
+    break-inside: avoid;
+  }
+
+  .badge {
+    border: 1px solid rgba(37, 99, 235, 0.3);
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  a {
+    color: inherit;
+  }
+
+  a[href]::after {
+    content: none;
+  }
+}
