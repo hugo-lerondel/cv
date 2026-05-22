@@ -1,0 +1,39 @@
+@media print {
+	@page {
+		size: A4 portrait;
+		margin: 0;
+	}
+
+	/*
+	 * On zoome toute la page à 79% pour que le CV (conçu à ~880px)
+	 * rentre exactement dans une page A4 (794px ÷ 880 ≈ 0.90, mais on
+	 * laisse un peu de marge basse pour la hauteur).
+	 */
+	html {
+		zoom: 0.91;
+	}
+
+	body {
+		margin: 0;
+		padding: 0;
+		background: white !important;
+	}
+
+	#root > div {
+		padding: 0 !important;
+		background: white !important;
+		min-height: unset !important;
+	}
+
+	/* Empêche les sauts de page inattendus dans les cartes */
+	.border-l-2 {
+		break-inside: avoid;
+		page-break-inside: avoid;
+	}
+
+	/* Couleurs préservées à l'impression */
+	* {
+		-webkit-print-color-adjust: exact !important;
+		print-color-adjust: exact !important;
+	}
+}
