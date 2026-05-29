@@ -10,12 +10,12 @@ export const profile = {
 	intro:
 		"Je recherche un CDI en développement web Full Stack avec une forte appétence pour le front-end. Avec des compétences couvrant aussi bien le back-end que le DevOps, je m'épanouis avant tout dans la création d'interfaces modernes et performantes.",
 	contacts: [
+		{ icon: Phone, label: "+33 6 40 60 06 30", href: "tel:+33640600630" },
 		{
 			icon: Mail,
 			label: "hugo.lerondel@orange.fr",
 			href: "mailto:hugo.lerondel@orange.fr",
 		},
-		{ icon: Phone, label: "+33 6 40 60 06 30", href: "tel:+33640600630" },
 		{ icon: MapPin, label: "Paris, France", href: null },
 		// { icon: Globe, label: "alexandre-martin.dev", href: "#" },
 		// { icon: Github, label: "github.com/alex-martin", href: "#" },
@@ -32,16 +32,16 @@ export const profile = {
 export const experiences = [
 	{
 		id: "takima",
-		company: "Takima",
+		company: "TAKIMA",
 		companyType: "ESN",
 		contractType: "CDI",
-		period: "Juil. 2021 — Présent",
+		period: "Juil. 2021 — Aujourd'hui . 4 ans 5 mois",
 		location: "Paris",
 		missions: [
 			{
 				client: "Cartier",
 				role: "Développeur Full-Stack",
-				period: "Juin 2022 — Nov. 2025",
+				period: "Juin 2022 — Nov. 2025 . 3 ans 6 mois",
 				stack: [
 					"React",
 					"TypeScript",
@@ -64,7 +64,7 @@ export const experiences = [
 			{
 				client: "Oney",
 				role: "Développeur Full-Stack",
-				period: "Fev. — Présent",
+				period: "Fev. — Présent . 3 mois",
 				stack: [
 					"React",
 					"TypeScript",
@@ -83,10 +83,10 @@ export const experiences = [
 	},
 	{
 		id: "capgemini",
-		company: "Capgemini",
+		company: "CAPGEMINI",
 		contractType: "Stage Elève Ingénieur",
 		role: "Stagiaire Développeur",
-		period: "Sept. 2019 — Janv. 2020",
+		period: "Sept. 2019 — Janv. 2020 . 5 mois",
 		location: "Issy-les-Moulineaux",
 		stack: ["Python", "Keras", "Tensorflow"],
 		bullets: [

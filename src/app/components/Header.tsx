@@ -32,7 +32,7 @@ export function Header() {
 							{profile.firstName}{" "}
 							<span className="text-blue-400">{profile.lastName}</span>
 						</h1>
-						<span className="text-[10.5px] font-bold uppercase tracking-[0.16em] text-blue-400/80">
+						<span className="text-[16px] font-bold uppercase tracking-[0.16em] text-blue-400/80">
 							{profile.title}
 						</span>
 					</div>
