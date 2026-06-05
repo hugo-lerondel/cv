@@ -1,4 +1,4 @@
-import { Globe, Linkedin, Mail, MapPin, Phone } from "lucide-react";
+import { Linkedin, Mail, MapPin, Phone } from "lucide-react";
 
 // ─── Profile ──────────────────────────────────────────────────────────────────
 
@@ -55,16 +55,16 @@ export const experiences = [
 					"Maven",
 				],
 				bullets: [
-					"Développement d'une applications gestion des flux de pièces confiées entre atelier et édition de feuilles de suivi (Web)",
+					"Développement d'une application de gestion des flux de pièces confiées entre ateliers et édition de feuilles de suivi (web)",
 					"Conception d'une application mobile à destination des clients finaux pour la consultation de certificats digitaux de pièces de joaillerie",
-					"Refonte d'une application de rangement et de répartition de composants pour les ateliers logistiques (Web et Mobile)",
+					"Refonte d'une application de rangement et de répartition de composants pour les ateliers logistiques (web et mobile)",
 					"Implémentation d'architectures microservices avec intégration d'API SAP",
 				],
 			},
 			{
 				client: "Oney",
 				role: "Développeur Full-Stack",
-				period: "Fev. — Présent . 3 mois",
+				period: "Fév. — Présent . 3 mois",
 				stack: [
 					"React",
 					"TypeScript",
@@ -84,13 +84,13 @@ export const experiences = [
 	{
 		id: "capgemini",
 		company: "CAPGEMINI",
-		contractType: "Stage Elève Ingénieur",
+		contractType: "Stage Élève Ingénieur",
 		role: "Stagiaire Développeur",
 		period: "Sept. 2019 — Janv. 2020 . 5 mois",
 		location: "Issy-les-Moulineaux",
 		stack: ["Python", "Keras", "Tensorflow"],
 		bullets: [
-			"Proof of Concept d'un tri automatique d'objet grâce à un bras robotique et une caméra",
+			"Proof of Concept d'un tri automatique d'objets grâce à un bras robotique et une caméra",
 			"Synchronisation du bras robotique avec la caméra, pour pouvoir attraper un objet détecté par celle-ci.",
 			"Entraînement / ré-entraînement d'un modèle de machine learning pour reconnaître des objets sur une image.",
 		],
@@ -137,11 +137,11 @@ export const competences = {
 		],
 		Back: ["Java", "Spring", "Hibernate", "PostgreSQL"],
 		DevOps: [
-			"Git / Gitlab / GitHub",
+			"Git / GitLab / GitHub",
 			"Gitlab CI/CD",
 			"GitHub Actions",
 			"Docker",
-			"ansible",
+			"Ansible",
 		],
 	},
 	nonTechniques: [
