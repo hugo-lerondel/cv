@@ -29,15 +29,14 @@ export function Header() {
 							className="text-[28px] font-semibold text-white leading-tight"
 							style={{ fontFamily: "'Fraunces', serif" }}
 						>
-							{profile.firstName}{" "}
-							<span className="text-blue-400">{profile.lastName}</span>
+							{profile.firstName} <span>{profile.lastName}</span>
 						</h1>
 						<span className="text-[16px] font-bold uppercase tracking-[0.16em] text-blue-400/80">
 							{profile.title}
 						</span>
 					</div>
 
-					<p className="text-[12.5px] text-slate-300 leading-relaxed mt-3 max-w-[490px]">
+					<p className="text-[12.5px] text-slate-300 leading-relaxed mt-3 max-w-[600px]">
 						{profile.intro}
 					</p>
 

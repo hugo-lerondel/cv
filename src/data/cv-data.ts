@@ -115,7 +115,7 @@ export const education = [
 		note: null,
 	},
 	{
-		degree: "Verified Certificate for Introduction to Web Accessibility",
+		degree: "edX Verified Certificate for Introduction to Web Accessibility",
 		school: "edX",
 		field: "Identifiant du diplôme : cabd750c8baa4657bd42ee4e947e4c9d",
 		period: "2025",
